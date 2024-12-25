@@ -10,11 +10,11 @@ const Footer = () => {
             <div className="space-y-2">
               <div className="flex items-center">
                 <Mail className="h-5 w-5 mr-2" />
-                <a href="mailto:contact@legalai.com">contact@legalai.com</a>
+                <a href="mailto:iluat@piscale.com">iluat@piscale.com</a>
               </div>
               <div className="flex items-center">
                 <Phone className="h-5 w-5 mr-2" />
-                <a href="tel:+1234567890">+1 (234) 567-890</a>
+                <a href="tel:+84914321703">+84 914321703</a>
               </div>
             </div>
           </div>
@@ -64,7 +64,7 @@ const Footer = () => {
           </div>
         </div>
         <div className="border-t border-white/10 mt-8 pt-8 text-center">
-          <p>&copy; 2024 Legal AI Assistant. All rights reserved.</p>
+          <p>&copy; 2024 iLuat. All rights reserved.</p>
         </div>
       </div>
     </footer>
