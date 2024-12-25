@@ -20,13 +20,6 @@ const Hero = () => {
               Try It Free
               <ArrowRight className="ml-2 h-5 w-5" />
             </Button>
-            <Button
-              variant="outline"
-              size="lg"
-              className="border-white text-white hover:bg-white/10"
-            >
-              Learn More
-            </Button>
           </div>
         </div>
       </div>
