@@ -1,7 +1,18 @@
 import { ArrowRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import { useToast } from "@/hooks/use-toast";
 
 const Hero = () => {
+  const { toast } = useToast();
+
+  const handleTryItFree = () => {
+    toast({
+      title: "Coming Soon!",
+      description: "This feature will be available soon. Stay tuned!",
+    });
+    console.log("Try It Free button clicked");
+  };
+
   return (
     <section className="relative bg-primary py-20 text-white overflow-hidden">
       <div className="container mx-auto px-4">
@@ -16,6 +27,7 @@ const Hero = () => {
             <Button
               size="lg"
               className="bg-accent hover:bg-accent-light text-primary font-semibold px-8"
+              onClick={handleTryItFree}
             >
               Try It Free
               <ArrowRight className="ml-2 h-5 w-5" />
